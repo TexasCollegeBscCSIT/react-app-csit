@@ -1,15 +1,8 @@
 import "./App.css";
-import TextInput from "./components/input/TextInput";
+import GuestLayout from "./layouts/GuestLayout";
 
 function App() {
-  return (
-    <>
-      <div className="container grid bg-slate-100 mx-auto">
-        <TextInput placeholder="Email Address"></TextInput>
-        <TextInput placeholder="Fullname"></TextInput>
-      </div>
-    </>
-  );
+  return <GuestLayout></GuestLayout>;
 }
 
 export default App;
