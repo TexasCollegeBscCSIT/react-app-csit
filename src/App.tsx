@@ -1,14 +1,17 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import TextInput from "./components/input/TextInput";
+import GuestLayout from "./layouts/GuestLayout";
+import Login from "./pages/Login";
 
 function App() {
   return (
-    <>
-      <div className="container grid bg-slate-100 mx-auto">
-        <TextInput placeholder="Email Address"></TextInput>
-        <TextInput placeholder="Fullname"></TextInput>
-      </div>
-    </>
+    <GuestLayout>
+      {/* <Routes>
+        <Route path="/" index={true} element={<App></App>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
+      </Routes> */}
+      conten t hogeos here
+    </GuestLayout>
   );
 }
 

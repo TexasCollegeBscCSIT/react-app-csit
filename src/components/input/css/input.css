@@ -1,0 +1,12 @@
+.errorArea{
+    animation: shakeElement 1s 1s 1 alternate;
+}
+
+@keyframes shakeElement {
+    0%,30%,70%,100% {
+        transform: translateX(-5px);
+    }
+    10%,50%,90%,100% {
+        transform: translateX(5px);
+    }
+}
