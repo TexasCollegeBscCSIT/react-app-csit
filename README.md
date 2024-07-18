@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+# Todo Apps
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application will have related features of Todo Apps. We are using react frontend library with vite and customizing it's components using tailwind css. The project have aimed to complete requirements for that we will be maintaing some git brach for differnt purpose.
 
-Currently, two official plugins are available:
+## Design / UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image info](./ui.jfif)
 
-## Expanding the ESLint configuration
+## Project Setup
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
+We are describing here some few steps which will ended up by running the project in you local machine. For setting up this project in your local machine you have to make sure that the version we are using for the application development needs to be aroundly maintain in you local machine.
 
 ```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+  node: V20.15.1
+  npm: 10.7.0
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Clone the project
+
+Please clone the project in your pc using below command.
+
+```git
+  https://github.com/hariupreti/react-app-csit.git
+```
+
+### Run project in development mode
+
+Open project root folder in your suitable text editor, and perform below command inorder to run devlopment server in your pc.
+
+```shell
+   npm i //install required package from package.json file
+
+   or
+
+   npm install //Inside project root directory
+```
+
+If you face any problem during package installation process try deleting node_modules folder and package-lock.json or yarn.lock and try again with above command.
+
+## Git Branch Information
+
+#### `main` This one will be the stable branch of our project.
+
+#### `develop` This branch will have latest code and all development task, we as a team will continuesly do development in this branch.
