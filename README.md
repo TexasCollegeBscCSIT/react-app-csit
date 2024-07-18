@@ -1,6 +1,6 @@
 # Todo Apps
 
-This application will have related features of Todo Apps. We are using react frontend library with vite and customizing it's components using tailwind css. The project have aimed to complete requirements for that we will be maintaing some git brach for differnt purpose.
+This app will contain features that are similar to Todo Apps. We are utilizing the React Frontend Library with Vita and Tailwind CSS to customize its components. The project's goal was to fulfill the prerequisites so that we may maintain certain git branches for different purposes.
 
 ## Design / UI
 
@@ -8,7 +8,7 @@ This application will have related features of Todo Apps. We are using react fro
 
 ## Project Setup
 
-We are describing here some few steps which will ended up by running the project in you local machine. For setting up this project in your local machine you have to make sure that the version we are using for the application development needs to be aroundly maintain in you local machine.
+Here, we'll walk you through a few stages that will ultimately result in running the project on your local computer. You must ensure that the version of the application development tool we are using on your local machine is regularly maintained before beginning this project locally.
 
 ```js
   node: V20.15.1
@@ -17,7 +17,7 @@ We are describing here some few steps which will ended up by running the project
 
 ### Clone the project
 
-Please clone the project in your pc using below command.
+Please use the command below to clone the project to your computer.
 
 ```git
   https://github.com/hariupreti/react-app-csit.git
@@ -25,7 +25,7 @@ Please clone the project in your pc using below command.
 
 ### Run project in development mode
 
-Open project root folder in your suitable text editor, and perform below command inorder to run devlopment server in your pc.
+To launch development server on your computer, open the project root folder in your preferred text editor and enter the following command in root directory.
 
 ```shell
    npm i //install required package from package.json file
@@ -35,10 +35,10 @@ Open project root folder in your suitable text editor, and perform below command
    npm install //Inside project root directory
 ```
 
-If you face any problem during package installation process try deleting node_modules folder and package-lock.json or yarn.lock and try again with above command.
+Try removing the node_modules folder, package-lock.json, or yarn.lock, and then run the aforementioned command again if you encounter any issues with the package installation process.
 
 ## Git Branch Information
 
-#### `main` This one will be the stable branch of our project.
+#### `main` This will be our project's stable branch.
 
-#### `develop` This branch will have latest code and all development task, we as a team will continuesly do development in this branch.
+#### `develop` The most recent code and all development tasks will be in this branch, and our team will continue to work on development there.
