@@ -4,9 +4,13 @@ import Login from "../pages/Login";
 
 export default function GuestLayout({ children }) {
   return (
-    <Fragment>
+    <div className="max-h-screen max-w-screen overflow-hidden">
       <Header></Header>
-      {children}
-    </Fragment>
+      <div className="bg-black/75 h-screen w-screen">
+      <div className="container mx-auto">
+        {children}
+      </div>
+      </div>
+    </div>
   );
 }

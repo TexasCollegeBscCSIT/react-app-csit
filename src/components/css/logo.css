@@ -1,0 +1,44 @@
+@keyframes animate {
+
+    0%,
+    10%,
+    80%,
+    100% {
+        width: 0;
+    }
+
+    30%,
+    70%,
+    90% {
+        width: 105px;
+    }
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 9vh;
+}
+
+#logo > h2 {
+    position: relative;
+    font-size: 2em;
+}
+
+#logo h2::before {
+    content: attr(data-text);
+    position: absolute;
+    color: #3f6845;
+    width: 105px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 33px;
+    margin-top: 12px;
+    border-right: 2px solid hsla(0, 1%, 15%, 0.897);
+    /* animation: animate 6s linear 1 reverse 0.2s;  */
+    animation: animate 9s 1 reverse cubic-bezier(0.8, .5, .5, 1);
+    background: -webkit-linear-gradient(#e20bac, #f39315, #67f713);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
