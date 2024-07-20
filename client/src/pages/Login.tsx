@@ -1,5 +1,3 @@
-import React from "react";
-import TextPasswordInput from "../components/input/TextPasswordInput";
 import GuestLayout from "../layouts/GuestLayout";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { Link } from "react-router-dom";
@@ -64,16 +62,14 @@ export default function Login() {
                 <div>
                   <button
                     type="submit"
-                    className="w-full rounded-md h-9 hover:bg-slate-600 transition-all my-8 bg-slate-700"
-                  >
+                    className="w-full rounded-md h-9 hover:bg-slate-600 transition-all my-8 bg-slate-700">
                     Login
                   </button>
                 </div>
                 <div>
                   <Link
                     to={"forget-passsword"}
-                    className="text-xs w-full grid place-content-end"
-                  >
+                    className="text-xs w-full grid place-content-end">
                     Forget Password ?
                   </Link>
                 </div>

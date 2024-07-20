@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Logo from "../logo/Logo";
-
+ 
 export default function Header() {
   const listStyle =
     "list-none float-left text-md uppercase cursor-pointer text-slate-500 hover:text-slate-300 ml-28 transition-all";
