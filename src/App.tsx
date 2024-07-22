@@ -1,17 +1,12 @@
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import Login from "./pages/Login";
-import Homepage from "./pages/Homepage";
-import GuestLayout from "./layouts/GuestLayout";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
-    <GuestLayout>
-      <Routes>
-        <Route path="/" index={true} element={<Homepage></Homepage>}></Route>
-        <Route path="/login" element={<Login></Login>}></Route>
-      </Routes>
-    </GuestLayout>
+    <BrowserRouter>
+      <AppRoutes></AppRoutes>
+    </BrowserRouter>
   );
 }
 

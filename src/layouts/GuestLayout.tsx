@@ -7,9 +7,7 @@ export default function GuestLayout({ children }) {
     <div className="max-h-screen max-w-screen overflow-hidden">
       <Header></Header>
       <div className="bg-black/75 h-screen w-screen">
-      <div className="container mx-auto">
-        {children}
-      </div>
+        <div className="container mx-auto">{children}</div>
       </div>
     </div>
   );
