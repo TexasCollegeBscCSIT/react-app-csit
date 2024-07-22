@@ -10,7 +10,7 @@
     30%,
     70%,
     90% {
-        width: 105px;
+        width: 200px;
     }
 }
 
@@ -30,7 +30,7 @@
     content: attr(data-text);
     position: absolute;
     color: #3f6845;
-    width: 105px;
+    width: 200px;
     overflow: hidden;
     white-space: nowrap;
     font-size: 33px;
