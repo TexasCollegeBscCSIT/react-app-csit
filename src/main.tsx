@@ -5,6 +5,7 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Login from "./pages/Login.tsx";
 import Error from "./pages/error/Error.tsx";
+import About from "./pages/About.tsx";
 
 const routes = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const routes = createBrowserRouter([
   {
     path: "/register",
     element: <>Register Content</>,
+  },
+  {
+    path: "/about",
+    // element: <About></About>
   },
 ]);
 

@@ -16,7 +16,7 @@ export default function Header() {
             <Link className={listStyle} to={"/"}>
               Home
             </Link>
-            <Link className={listStyle} to={"about"}>
+            <Link className={listStyle} to={"/about"}>
               About
             </Link>
             <Link className={listStyle} to={"services"}>
