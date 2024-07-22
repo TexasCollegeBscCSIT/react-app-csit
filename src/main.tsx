@@ -5,6 +5,7 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Login from "./pages/Login.tsx";
 import Error from "./pages/error/Error.tsx";
+import Contact from "./pages/Contact.tsx";
 
 const routes = createBrowserRouter([
   {
@@ -20,6 +21,11 @@ const routes = createBrowserRouter([
     path: "/register",
     element: <>Register Content</>,
   },
+  {
+    path: "/contact",
+    element: <Contact></Contact>,
+  },
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
