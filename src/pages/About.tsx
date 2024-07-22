@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className=" w-full h-screen grid grid-flow-row ">
+    <div className=" w-full min-h-screen grid grid-flow-row ">
       <div className="w-full bg-[url(./src/assets/aboutUs-background1.png)] bg-cover bg-no-repeat bg-right grid grid-flow-col">
         <div className="py-32 pr-10 w-[800px] pl-20">
           <p className="italic pl-1">Inspiration, Innovation and Discovery.</p>
@@ -42,12 +42,12 @@ export default function About() {
         </div>
         <div className="flex items-center justify-center">
           <img
-            className="h-20 w-18"
+            className="h-11 w-16"
             src="./src/assets/bookStand.png"
             alt="book stand"
           />
           <div>
-            <h1 className="uppercase  text-black font-semibold text-2xl">
+            <h1 className="uppercase pl-2 text-black font-semibold text-2xl">
               book library & store
             </h1>
           </div>
