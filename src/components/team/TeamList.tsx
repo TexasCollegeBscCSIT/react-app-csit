@@ -81,7 +81,7 @@ export default function TeamList() {
             </p>
           </div>
         </div>
-        <ul role="list" className="grid gap-1 ml-5 gap-y-12 sm:grid-cols-4">
+        <ul role="list" className="grid gap-1 ml-5 gap-y-12 sm:grid-cols-3">
           {people.map((person) => (
             <li key={person.name}>
               <div className="flex items-center gap-x-6 ml-10 mt-16">
