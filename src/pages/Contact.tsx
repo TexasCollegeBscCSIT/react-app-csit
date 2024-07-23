@@ -42,7 +42,7 @@ export default function Contact() {
                     First Name
                   </label>
                   <input
-                    className="flex w-full bg-white border border-gray-500 p-2 rounded-lg"
+                    className="flex w-full bg-white border outline-none border-gray-500 p-2 rounded-lg"
                     type="text"
                     placeholder="First Name"
                   />
@@ -50,7 +50,7 @@ export default function Contact() {
                 <div>
                   <label className="flex w-full font-semibold">Last Name</label>
                   <input
-                    className="flex w-full  bg-white border border-gray-500 p-2 rounded-lg"
+                    className="flex w-full  bg-white border  outline-none border-gray-500 p-2 rounded-lg"
                     type="text"
                     placeholder="Last Name"
                   />
@@ -59,7 +59,7 @@ export default function Contact() {
               <div className="pl-10 mt-2">
                 <label className="flex w-full font-semibold">Email</label>
                 <input
-                  className="flex w-full  bg-white border border-gray-500 p-2 rounded-lg"
+                  className="flex w-full  bg-white border  outline-none border-gray-500 p-2 rounded-lg"
                   type="email"
                   placeholder="you@company.com"
                 />
@@ -69,7 +69,7 @@ export default function Contact() {
                   Phone Number
                 </label>
                 <input
-                  className="flex w-full  bg-white border border-gray-500 p-2 rounded-lg"
+                  className="flex w-full  bg-white border  outline-none border-gray-500 p-2 rounded-lg"
                   type="number"
                   placeholder="+(977)-000-0000000"
                 />
@@ -85,11 +85,20 @@ export default function Contact() {
           </div>
         </div>
         <div className="px-1 py-5">
-          <img
+          {/* <img
             className="w-full rounded-lg"
             src="./src/assets/map.png"
             alt="map of college"
-          />
+          /> */}
+          <div className="flex items-center justify-center h-screen">
+            <iframe
+              className="w-full rounded-lg shadow-lg"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.158525231676!2d85.3420219109075!3d27.712391325169932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1970a9ff7041%3A0xfcaa45db29104458!2sTexas%20International%20College!5e0!3m2!1sen!2snp!4v1721697097685!5m2!1sen!2snp"
+              width="600"
+              height="600"
+              loading="lazy"
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>
