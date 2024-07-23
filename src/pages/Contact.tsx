@@ -2,16 +2,16 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="bg-white h-full">
+    <div className="bg-white h-full py-5">
       <div className="w-full container grid grid-flow-col grid-cols-2 mx-auto ">
-        <div className=" text-black contact-info pl-28  my-auto  ">
-          <div className="p-10  w-96 text-justify ">
+        <div className=" text-black contact-info pl-28 mt-2">
+          <div className="p-10 w-96 text-justify ">
             <h1 className="text-5xl text-[#6A2DE9] font-bold">Get in touch</h1>
             <p className="mt-4 font-semibold">
               We're here to help. Chat to our friendly team 24/7 and get set up
               and ready to go in just 5 minutes.
             </p>
-            <div className="pt-8 ">
+            <div className="pt-8">
               <a
                 className="flex w-full text-[#6A2DE9] font-bold pb-1"
                 target="_blank"
