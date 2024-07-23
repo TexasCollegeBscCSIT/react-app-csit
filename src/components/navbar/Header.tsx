@@ -14,11 +14,11 @@ export default function Header() {
     <>
       <div className="h-10 bg-[#001E2B]">
         <p className="text-xs pl-10 pt-3 text-white font-mono font-semibold">
-          <a href={"/contact"}>
+          <Link to={"/contact"}>
             <span className="bg-[#B1FF05] text-black font-thin p-1 px-2 rounded-3xl mr-3">
               Join Now
             </span>
-          </a>
+          </Link>
           We're announcing the enrolement of this year, starting since July 10.
         </p>
       </div>
