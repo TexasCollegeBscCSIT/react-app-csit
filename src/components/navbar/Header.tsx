@@ -3,6 +3,7 @@ import Logo from "../logo/Logo";
 import { useState } from "react";
 
 export default function Header() {
+  const [enabled, setEnabled] = useState(false);
   const listStyle =
     // "list-none float-left text-md uppercase cursor-pointer text-black hover:text-slate-300 ml-28 transition-all";
     "list-none float-left text-lg uppercase font-bold cursor-pointer  ml-28 ";
