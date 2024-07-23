@@ -3,9 +3,9 @@ import React from "react";
 export default function Contact() {
   return (
     <div className="bg-white h-full">
-      <div className="w-full container grid grid-flow-col grid-cols-2 mx-auto">
-        <div className=" text-black contact-info pl-28 ">
-          <div className="p-10 mt-8 w-96 text-justify">
+      <div className="w-full container grid grid-flow-col grid-cols-2 mx-auto ">
+        <div className=" text-black contact-info pl-28  my-auto  ">
+          <div className="p-10  w-96 text-justify ">
             <h1 className="text-5xl text-[#6A2DE9] font-bold">Get in touch</h1>
             <p className="mt-4 font-semibold">
               We're here to help. Chat to our friendly team 24/7 and get set up
@@ -56,7 +56,7 @@ export default function Contact() {
                   />
                 </div>
               </div>
-              <div className="pl-10">
+              <div className="pl-10 mt-2">
                 <label className="flex w-full font-semibold">Email</label>
                 <input
                   className="flex w-full  bg-white border border-gray-500 p-2 rounded-lg"
@@ -64,7 +64,7 @@ export default function Contact() {
                   placeholder="you@company.com"
                 />
               </div>
-              <div className="pl-10 ">
+              <div className="pl-10 mt-2">
                 <label className="flex w-full font-semibold">
                   Phone Number
                 </label>
