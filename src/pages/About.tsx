@@ -1,13 +1,12 @@
 import React, { useEffect } from "react";
-import Team from "../components/team/TeamList";
 import { Link } from "react-router-dom";
 
 export default function About() {
   const scrollBottomDiv = React.createRef();
 
-  useEffect(() => {
-    scrollBottomDiv.current?.scrollIntoView({ behavior: "smooth" });
-  }, []);
+  // useEffect(() => {
+  //   scrollBottomDiv.current?.scrollIntoView({ behavior: "smooth" });
+  // }, []);
 
   return (
     <div className=" ">
@@ -79,7 +78,6 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div ref={scrollBottomDiv}>Bottom Div</div>
     </div>
   );
 }
