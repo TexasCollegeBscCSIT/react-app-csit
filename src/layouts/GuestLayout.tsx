@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import Header from "../components/navbar/Header";
 
 export default function GuestLayout({ children }) {

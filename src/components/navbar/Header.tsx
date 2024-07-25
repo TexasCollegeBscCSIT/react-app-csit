@@ -1,9 +1,17 @@
 import { Link } from "react-router-dom";
 import Logo from "../logo/Logo";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Switch } from "@headlessui/react";
+import { ThemeContext } from "../../context/ThemeContext";
+import { AuthContext } from "../../context/AuthContext";
 
 export default function Header() {
+  // const theme = useContext(ThemeContext);
+  const theme = useContext(ThemeContext);
+  const user = useContext(AuthContext);
+  console.log(user);
+  // console.log(theme);
+  // debugger;
   const [enabled, setEnabled] = useState(false);
   const listStyle =
     // "list-none float-left text-md uppercase cursor-pointer text-black hover:text-slate-300 ml-28 transition-all";
@@ -11,10 +19,10 @@ export default function Header() {
 
   const toggleLightDarkMode = () => {
     setEnabled(!enabled);
-    console.log(enabled);
-    const newMood = enabled ? "light" : "dark";
-    localStorage.setItem("theme-mood", newMood);
-    document.getElementById("main-body")?.setAttribute("data-mode", newMood);
+    theme.toggleTheme();
+    document
+      .getElementById("main-body")
+      ?.setAttribute("data-mode", theme.theme);
   };
   return (
     <>
